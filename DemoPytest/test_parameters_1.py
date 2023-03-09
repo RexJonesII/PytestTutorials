@@ -1,6 +1,5 @@
 import math
 
-import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
@@ -28,22 +27,3 @@ def test_lambdatest_two_input_fields(num1, num2, expected_total):
 def test_raising_base_to_power(base, exponent):
   result = base ** exponent
   assert result == math.pow(base, exponent)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

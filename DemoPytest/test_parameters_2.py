@@ -12,20 +12,3 @@ class Test_Drivers(BaseClass):
       "div#__next h1").text
     print("Header: ", header)
     assert header == "Selenium Playground"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
