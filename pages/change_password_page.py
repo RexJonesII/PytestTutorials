@@ -1,6 +1,6 @@
 from pages.base_page import BasePage
 from pages.my_account_page import MyAccountPage
-from utiliities.locators import ChangePasswordLocatorFields
+from utilities.locators import ChangePasswordLocatorFields
 
 
 class ChangePasswordPage(BasePage):

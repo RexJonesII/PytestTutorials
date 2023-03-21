@@ -1,6 +1,6 @@
 from pages.login_page import LoginPage
 from tests.base_test import BaseTest
-from utiliities.test_data import TestData
+from utilities.test_data import TestData
 
 
 class TestLogin(BaseTest):
